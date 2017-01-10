@@ -9,7 +9,10 @@
 
 	herbstluftwm
 	https://github.com/herbstluftwm/herbstluftwm
-	http://herbstluftwm.org/	
+	http://herbstluftwm.org/
+
+	swm
+	https://github.com/dcat/swm
 
 	wmutils
 	https://github.com/wmutils/core
@@ -18,6 +21,15 @@
 	openbox
 	https://github.com/danakj/openbox
 	http://openbox.org/wiki/Main_Page
+
+#HOTKEYING
+
+	sxhkd
+	https://github.com/baskerville/sxhkd
+
+	xbindkeys
+	https://github.com/IonicaBizau/xbindkeys
+	http://git.savannah.gnu.org/cgit/xbindkeys.git/
 
 #TERMINAL EMULATORS
 
