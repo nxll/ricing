@@ -18,6 +18,9 @@
 	https://github.com/wmutils/core
 	https://github.com/wmutils/opt
 
+	bspwm
+	https://github.com/baskerville/bspwm
+
 	openbox
 	https://github.com/danakj/openbox
 	http://openbox.org/wiki/Main_Page
@@ -45,11 +48,11 @@
 
 #SHELLS
 
-	xst
-	https://github.com/neeasade/xst
-
 	zsh
 	https://github.com/zsh-users/zsh
+
+	xst
+	https://github.com/neeasade/xst
 
 	mksh
 	https://github.com/MirBSD/mksh
@@ -176,9 +179,15 @@
 	scrot
 	https://github.com/dreamer/scrot
 
-	yaxg
+	yaxg - desktop recorder
 	https://github.com/DanielFGray/yaxg
 
+
+	#MISCELLANEOUS
+	hsetroot - for setting wallpapers, includes options such as blur.
+	https://github.com/elmiko/hsetroot (not main authors repo)
+	https://aur.archlinux.org/packages/hsetroot/
+	
 #FONTS
 
 	#BITMAP
@@ -209,4 +218,9 @@
 	http://paletton.com/
 	http://www.pictaculous.com/
 	https://www.materialpalette.com/
-		
+
+#OTHER LINKS
+
+	https://github.com/stark/Color-Scripts - bunch of color scripts by various people
+	https://github.com/actionless/oomox - generate GTK2/3 color themes
+
