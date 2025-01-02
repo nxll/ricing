@@ -7,8 +7,7 @@
 	| $$  \ $$  | $$  | $$    $$  | $$  | $$\  $$$| $$  \ $$
 	| $$  | $$ /$$$$$$|  $$$$$$/ /$$$$$$| $$ \  $$|  $$$$$$/
 	|__/  |__/|______/ \______/ |______/|__/  \__/ \______/ 
-RESOURCES
-	
+
 #WINDOW MANAGERS
 
 	2bwm
@@ -25,12 +24,12 @@ RESOURCES
 	https://github.com/wmutils/core
 	https://github.com/wmutils/opt
 
+ 	xmonad
+	https://github.com/xmonad/xmonad
+	https://xmonad.org
+
 	bspwm
 	https://github.com/baskerville/bspwm
-
-	openbox
-	https://github.com/danakj/openbox
-	http://openbox.org/wiki/Main_Page
 
 #HOTKEYING
 
@@ -53,6 +52,10 @@ RESOURCES
 	http://st.suckless.org/
 	https://github.com/strake/st
 
+ 	alacritty
+	https://alacritty.org
+	https://github.com/alacritty/alacritty
+
 #SHELLS
 
 	zsh
@@ -64,9 +67,8 @@ RESOURCES
 	mksh
 	https://github.com/MirBSD/mksh
 
-#PROGRAMS
+#FILE MANAGEMENT
 
-	#FILE MANAGEMENT
 	ranger
 	https://github.com/ranger/ranger
 	http://www.nongnu.org/ranger/
@@ -75,28 +77,26 @@ RESOURCES
 	https://github.com/MidnightCommander/mc
 	http://midnight-commander.org/
 
+#WEB BROWSERS
 
-	#WEB BROWSERS
-	firefox
-	https://www.mozilla.org
-	often used with
-	http://www.vimperator.org/vimperator/
-	https://addons.mozilla.org/en-US/firefox/addon/stylish/
+	librewolf
+	https://librewolf.net
 
-	inox
-	https://aur.archlinux.org/packages/inox-bin/
-	https://github.com/gcarq/inox-patchset
+ 	surf
+	https://surf.suckless.org
 
 	qutebrowser
 	https://github.com/The-Compiler/qutebrowser
 	https://qutebrowser.org/
 
+	vivaldi
+	https://www.vivaldi.org
 
-	#IMAGES
-	sxiv
-	https://github.com/thelostt/sxiv
-	this is the main branch for sxiv but I recommend the above as it includes Xresources configuration.
-	https://github.com/muennich/sxiv
+#IMAGES
+
+	nsxiv
+	https://github.com/nsxiv/nsxiv
+	https://grfreire.github.io/nsxiv/
 
 	meh
 	https://github.com/jhawthorn/meh
@@ -104,18 +104,21 @@ RESOURCES
 	feh
 	https://github.com/derf/feh
 
+ 	imv
+	https://github.com/eXeC64/imv
 
-	#AUDIO
+#AUDIO
+
 	mpd
 	https://github.com/MaxKellermann/MPD
 	https://www.musicpd.org/
 
-		ncmpcpp
-		https://github.com/arybczak/ncmpcpp
-		http://rybczak.net/ncmpcpp/		
+	ncmpcpp
+	https://github.com/arybczak/ncmpcpp
+	http://rybczak.net/ncmpcpp/		
 
-		mpc
-		https://musicpd.org/clients/mpc/
+	mpc
+	https://musicpd.org/clients/mpc/
 
 	mocp
 	https://github.com/zcoder/mocp
@@ -125,11 +128,14 @@ RESOURCES
 	https://github.com/cmus/cmus
 	https://cmus.github.io/
 
-	cli-visualizer (no real function, but looks good)
+	cli-visualizer
 	https://github.com/dpayne/cli-visualizer
 
+	cava
+ 	https://github.com/karlstav/cava
 
-	#VIDEO
+#VIDEO
+
 	mpv
 	https://github.com/mpv-player/mpv
 	https://mpv.srsfckn.biz/
@@ -138,17 +144,18 @@ RESOURCES
 	https://www.mplayerhq.hu/design7/news.html
 
 
-	#DOCUMENTS
-	zathura
+#DOCUMENTS
+
+ 	zathura
 	https://github.com/pwmt/zathura
 	https://pwmt.org/projects/zathura/
 
 	xpdf
 	http://www.foolabs.com/xpdf/
 
+#IRC
 
-	#IRC
-	weechat
+ 	weechat
 	https://github.com/weechat/weechat
 	https://weechat.org/
 
@@ -156,31 +163,28 @@ RESOURCES
 	https://github.com/irssi/irssi
 	https://irssi.org/
 
+#BARS/PANELS
 	
-	#BARS/PANELS
-	bar
+ 	bar
 	https://github.com/LemonBoy/bar
-	I recommend this version (includes borders)
-	https://github.com/dark-yux/bar
+	this version includes borders and clickable area
+	https://github.com/duckwork/lemonbar-duck
 
 	dzen
 	https://github.com/robm/dzen
 
+#LAUNCHERS
 	
- 	#LAUNCHERS
-	dmenu
+ 	dmenu
 	http://tools.suckless.org/dmenu/
 	https://github.com/michaelforney/dmenu
-
-	interrobang
-	https://github.com/TrilbyWhite/interrobang
 
 	rofi
 	https://github.com/DaveDavenport/rofi
 
-
-	#SCREENSHOT/CAST UTILITIES
-	maim
+#SCREENSHOT/CAST UTILITIES
+	
+ 	maim
 	https://github.com/naelstrof/maim
 
 	scrot
@@ -189,22 +193,18 @@ RESOURCES
 	yaxg - desktop recorder
 	https://github.com/DanielFGray/yaxg
 
-
-	#MISCELLANEOUS
-	hsetroot - for setting wallpapers, includes options such as blur.
-	https://github.com/elmiko/hsetroot (not main authors repo)
+#MISCELLANEOUS
+	
+ 	hsetroot - for setting wallpapers
+	https://github.com/elmiko/hsetroot
 	https://aur.archlinux.org/packages/hsetroot/
 	
 #FONTS
 
-	#BITMAP
-	https://github.com/Tecate/bitmap-fonts
+	https://github.com/ryanoasis/nerd-fonts
+ 	https://github.com/Tecate/bitmap-fonts
 	https://github.com/stark/siji
-
-	#TTF
-	https://github.com/chrissimpkins/codeface
-	http://www.dafont.com/
-	http://www.1001fonts.com/
+	https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/
 
 	#FIGLET
 	https://github.com/xero/figlet-fonts
@@ -215,7 +215,7 @@ RESOURCES
 	https://www.pexels.com/
 	https://unsplash.com/
 	http://simpledesktops.com/
-	https://alpha.wallhaven.cc/
+	https://wallhaven.cc/
 	https://subtlepatterns.com/
 
 #COLOR SCHEMES
@@ -223,7 +223,6 @@ RESOURCES
 	http://www.xcolors.net/
 	http://terminal.sexy/
 	http://paletton.com/
-	http://www.pictaculous.com/
 	https://www.materialpalette.com/
 
 #OTHER LINKS
