@@ -230,3 +230,5 @@
 	https://github.com/stark/Color-Scripts - bunch of color scripts by various people
 	https://github.com/actionless/oomox - generate GTK2/3 color themes
 
+	https://suckless.org/rocks/ - a more comprehensive list by suckless
+
